@@ -1,0 +1,4 @@
+pi
+raspberry
+startlxde
+gpio readall
