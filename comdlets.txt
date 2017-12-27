@@ -1,4 +1,37 @@
 pi
 raspberry
 startlxde
+
+upgrade:
+ref: https://www.raspberrypi.org/documentation/raspbian/updating.md
+
+sudo apt-get update
+sudo apt-get dist-upgrade
+to chek the memory
+df -h 
+ to clean the archived downloaded files
+
+sudo apt-get clean 
+
+serving upp the files as webserver 
+nginx is the famour light weight webserver
+sudo apt-get install nginx
+
+usb webcam
+
+ref :https://www.raspberrypi.org/documentation/usage/webcams/
+ sudo apt-get install fswebcam
+
+fswebcam image.jpg
+
+
+
+from pi shell
+ref: http://wiringpi.com/the-gpio-utility/
+
+man gpio
+gpio -v
+
 gpio readall
+
+gpio all readall
