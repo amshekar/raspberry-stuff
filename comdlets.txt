@@ -35,3 +35,8 @@ gpio -v
 gpio readall
 
 gpio all readall
+
+
+Install git
+sudo apt-get install git-all
+
